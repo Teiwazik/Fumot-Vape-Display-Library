@@ -66,6 +66,21 @@ void loop() {
 - Digits and symbols are mapped to a 30-LED Charlieplex layout.
 - Supports percent symbol (LED 16) and lightning bolt (LED 17).
 
+
+---
+
+# 🧰 7-Segment Symbol Editor (Python Tool)
+
+A lightweight graphical tool built with **Tkinter** to visually design and export 7-segment characters.
+
+## 🔧 Features
+
+- Click to toggle segments (A–G)
+- Automatically generates the corresponding **bit pattern** (`0bXXXXXXX`)
+- Displays both **binary** and **hexadecimal** codes
+- Automatically **copies the result to clipboard**
+- Useful for creating custom characters for `Fumot_Display`
+
 ---
 
 ## 📦 Installation
